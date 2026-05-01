@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="550" prefWidth="600" style="-fx-background-color: #e6f5e9;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="org.example.medi.CreateAccountSellerController">
+
+        <VBox alignment="CENTER" layoutX="50" layoutY="20" prefWidth="500" spacing="12">
+            <padding>
+                <Insets bottom="20" left="20" right="20" top="20" />
+            </padding>
+
+            <!-- Logo -->
+            <ImageView fitHeight="100" fitWidth="150" preserveRatio="true">
+                <Image url="@image/plant.png" />
+            </ImageView>
+
+            <!-- Title -->
+            <Label style="-fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: #2e7d32;" text="Create Seller Account" />
+
+            <!-- Input Fields -->
+            <TextField fx:id="usernameField" promptText="Username" style="-fx-background-color: #dfd6ef;" />
+            <TextField fx:id="phoneField" promptText="Phone (+880...)" style="-fx-background-color: #dfd6ef;" />
+            <TextField fx:id="addressField" promptText="Address" style="-fx-background-color: #dfd6ef;" />
+            <TextField fx:id="shopNameField" promptText="Shop Name" style="-fx-background-color: #dfd6ef;" />
+            <TextField fx:id="shopLocationField" promptText="Shop Location" style="-fx-background-color: #dfd6ef;" />
+            <TextField fx:id="emailField" promptText="Email" style="-fx-background-color: #dfd6ef;" />
+            <PasswordField fx:id="passwordField" promptText="Password (min 8 characters)" style="-fx-background-color: #dfd6ef;" />
+            <TextField fx:id="roleField" editable="false" text="seller" visible="false" />
+
+            <!-- Buttons -->
+            <HBox alignment="CENTER" spacing="20">
+                <Button fx:id="backButton" onAction="#handleBack" style="-fx-background-color: #a5d6a7; -fx-text-fill: #1b5e20; -fx-font-weight: bold;" text="Back">
+                    <effect><DropShadow color="#c8e6c9" radius="5" /></effect>
+                </Button>
+                <Button fx:id="doneButton" onAction="#handleDone" style="-fx-background-color: #81c784; -fx-text-fill: white; -fx-font-weight: bold;" text="Create Account">
+                    <effect><DropShadow color="#66bb6a" radius="5" /></effect>
+                </Button>
+            </HBox>
+        </VBox>
+
+</AnchorPane>

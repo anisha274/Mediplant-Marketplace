@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.medi.PlantBuyerController"
+            style="-fx-background-color: #f9f9f9;">
+
+    <top>
+        <HBox spacing="15" alignment="CENTER_LEFT" style="-fx-padding: 15; -fx-background-color: #ffffff;">
+            <Label text="🌿 Plant Marketplace" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+            <Region HBox.hgrow="ALWAYS"/>
+            <ComboBox fx:id="categoryFilter" promptText="Filter by Category" style="-fx-pref-width: 150;"/>
+            <TextField fx:id="searchField" promptText="Search plants..." style="-fx-pref-width: 200;"/>
+            <Button fx:id="searchButton" text="Search" onAction="#searchPlantByName"
+                    style="-fx-background-color: #3498db; -fx-text-fill: white; -fx-font-weight: bold;"/>
+            <Button text="Refresh" onAction="#handleRefresh"
+                    style="-fx-background-color: #2ecc71; -fx-text-fill: white; -fx-font-weight: bold;"/>
+            <Button text="Cart" onAction="#handleViewCart"
+                    style="-fx-background-color: #f0c040; -fx-font-weight: bold;"/>
+            <Button text="Profile" onAction="#handleProfile"
+                    style="-fx-background-color: #3498db; -fx-text-fill: white; -fx-font-weight: bold;"/>
+            <Button text="Logout" onAction="#handleLogout"
+                    style="-fx-background-color: #e74c3c; -fx-font-weight: bold;"/>
+        </HBox>
+    </top>
+
+    <center>
+        <ScrollPane fitToWidth="true" style="-fx-background-color: transparent;">
+            <VBox fx:id="plantListVBox" spacing="10" style="-fx-padding: 10;"/>
+        </ScrollPane>
+    </center>
+</BorderPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="500.0" prefWidth="461.0" spacing="15"
+      style="-fx-background-color: #2E6F40; -fx-padding: 30;"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.medi.LoginController">
+
+    <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@image/plant.png" />
+    </ImageView>
+
+    <TextField fx:id="emailField" prefHeight="40.0" prefWidth="350.0"
+               promptText="Email" style="-fx-background-color: #CFFFDC; -fx-font-size: 14px;" />
+
+    <PasswordField fx:id="passwordField" prefHeight="40.0" prefWidth="350.0"
+                   promptText="Password" style="-fx-background-color: #CFFFDC; -fx-font-size: 14px;" />
+
+    <ComboBox fx:id="roleComboBox" prefWidth="350.0" prefHeight="40.0"
+              promptText="Select Role" style="-fx-background-color: #d6e656; -fx-font-size: 14px;">
+    </ComboBox>
+
+    <Button fx:id="loginButton" onAction="#handleLogin"
+            prefWidth="350.0" prefHeight="40.0"
+            style="-fx-background-color: #ea8c52; -fx-text-fill: white; -fx-font-weight: bold;"
+            text="Login" />
+
+    <Button fx:id="createAccountButton" onAction="#goToCreateAccount"
+            prefWidth="350.0" prefHeight="40.0"
+            style="-fx-background-color: #ea8c52; -fx-text-fill: white; -fx-font-weight: bold;"
+            text="Create Account" />
+
+
+</VBox>

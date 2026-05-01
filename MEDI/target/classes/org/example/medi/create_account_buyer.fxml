@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<VBox alignment="CENTER" prefHeight="532.0" prefWidth="478.0" spacing="10"
+      style="-fx-background-color: #d0edd7;" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.medi.CreateAccountBuyerController">
+
+    <ImageView fitHeight="107.0" fitWidth="159.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@image/plant.png" />
+    </ImageView>
+    <TextField fx:id="usernameField" prefHeight="32.0" prefWidth="478.0" promptText="Username" style="-fx-background-color: #dfd6ef;">
+        <effect>
+            <DropShadow blurType="GAUSSIAN">
+                <color>
+                    <Color red="0.2" green="0.8" blue="0.3" />
+                </color>
+            </DropShadow>
+        </effect>
+    </TextField>
+    <TextField fx:id="addressField" prefHeight="33.0" prefWidth="478.0" promptText="Address" style="-fx-background-color: #dfd6ef;">
+        <effect>
+            <DropShadow blurType="GAUSSIAN">
+                <color>
+                    <Color red="0.2" green="0.8" blue="0.3" />
+                </color>
+            </DropShadow>
+        </effect>
+    </TextField>
+    <TextField fx:id="emailField" prefHeight="29.0" prefWidth="478.0" promptText="Email" style="-fx-background-color: #dfd6ef;">
+        <effect>
+            <DropShadow blurType="GAUSSIAN">
+                <color>
+                    <Color red="0.2" green="0.8" blue="0.3" />
+                </color>
+            </DropShadow>
+        </effect>
+    </TextField>
+    <PasswordField fx:id="passwordField" prefHeight="30.0" prefWidth="478.0" promptText="Set Password" style="-fx-background-color: #dfd6ef;">
+        <effect>
+            <DropShadow blurType="GAUSSIAN">
+                <color>
+                    <Color red="0.2" green="0.8" blue="0.3" />
+                </color>
+            </DropShadow>
+        </effect>
+    </PasswordField>
+    <TextField fx:id="roleField" text="buyer" visible="false" />
+    <Button fx:id="doneButton" onAction="#handleDone" style="-fx-background-color: #a2dbaf;" text="Done">
+        <effect>
+            <DropShadow blurType="GAUSSIAN" radius="20.0">
+                <color>
+                    <Color red="0.9" green="0.9" blue="0.1" opacity="0.95" />
+                </color>
+            </DropShadow>
+        </effect>
+    </Button>
+    <Button fx:id="backButton" onAction="#handleBack" style="-fx-background-color: #a2dbaf;" text="Back">
+        <effect>
+            <DropShadow blurType="GAUSSIAN" radius="20.0">
+                <color>
+                    <Color red="1.0" green="1.0" blue="0.01" opacity="0.92" />
+                </color>
+            </DropShadow>
+        </effect>
+    </Button>
+</VBox>
