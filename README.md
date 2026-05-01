@@ -58,7 +58,6 @@ Mediplant-Marketplace/
 │   │       ├── css/
 │   │       └── images/
 │
-├── lib/ (if any external libraries)
 ├── README.md
 └── .gitignore
 ```
