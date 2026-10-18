@@ -14,7 +14,6 @@ Mediplant Marketplace is a JavaFX-based desktop application designed to simplify
 <img width="830" height="750" alt="Screenshot 2026-10-18 at 8 56 56 PM" src="https://github.com/user-attachments/assets/0eea8c38-108f-4d71-8173-dd7f7ad6746d" />
 <img width="826" height="691" alt="Screenshot 2026-10-18 at 8 56 08 PM" src="https://github.com/user-attachments/assets/4e00c755-9626-45cf-9a2f-b8d6afebaf33" />
 <img width="945" height="112" alt="Screenshot 2026-10-18 at 8 57 52 PM" src="https://github.com/user-attachments/assets/22905ca0-a45e-464d-9d33-98bc79de02bf" />
-<img width="464" height="732" alt="Screenshot 2026-10-18 at 7 54 04 PM" src="https://github.com/user-attachments/assets/7e5bc42f-bbd3-424b-bfd6-5adddc08b383" />
 <img width="598" height="396" alt="Screenshot 2026-10-18 at 9 02 23 PM" src="https://github.com/user-attachments/assets/c947680b-456f-4107-8165-6014884737cf" />
 <img width="598" height="400" alt="Screenshot 2026-10-18 at 9 00 28 PM" src="https://github.com/user-attachments/assets/7556cc61-3a8b-41f0-b9eb-2bad7dbe4d56" />
 <img width="352" height="577" alt="Screenshot 2026-10-18 at 9 00 13 PM" src="https://github.com/user-attachments/assets/697381a0-2793-4393-838e-0607374ea878" />
