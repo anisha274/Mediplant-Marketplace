@@ -8,6 +8,8 @@ A desktop-based marketplace application developed using JavaFX that connects buy
 
 Mediplant Marketplace is a JavaFX-based desktop application designed to simplify the process of buying and selling medicinal plants. The system provides separate dashboards for buyers and sellers, ensuring smooth interaction and management.
 
+<img width="352" height="577" alt="Screenshot 2026-10-18 at 9 00 13 PM" src="https://github.com/user-attachments/assets/697381a0-2793-4393-838e-0607374ea878" />
+
 ---
 
 ## 🎯 Objectives
